@@ -1,0 +1,8 @@
+
+*.log
+*.json
+*.html
+suspicious_query.txt
+
+__pycache__/
+.DS_Store
