@@ -1,0 +1,16 @@
+LabelName,EncodedValue
+ACK_Fragmentation,0
+BenignTraffic,1
+CONNECT_Attack,2
+DELAY_CONNECT_Attack,3
+ICMP_Flood,4
+ICMP_Fragmentation,5
+PSHACK_Flood,6
+RSTFINFlood,7
+SYN_Flood,8
+Subscription_Attack,9
+SynonymousIP_Flood,10
+TCP_ACK_Flood,11
+UDP_Flood,12
+UDP_Fragmentation,13
+WILL_Payload_Attack,14

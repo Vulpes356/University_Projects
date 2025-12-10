@@ -1,0 +1,22 @@
+=== CLASSIFICATION REPORT (LightGBM) ===
+                      precision    recall  f1-score   support
+
+   ACK_Fragmentation       0.99      1.00      0.99     59728
+       BenignTraffic       1.00      1.00      1.00     70422
+      CONNECT_Attack       0.93      0.96      0.94     22884
+DELAY_CONNECT_Attack       0.97      0.95      0.96     34568
+          ICMP_Flood       1.00      0.77      0.87     58043
+  ICMP_Fragmentation       0.84      0.99      0.91     73295
+        PSHACK_Flood       0.99      1.00      1.00     50722
+         RSTFINFlood       1.00      1.00      1.00     53029
+           SYN_Flood       0.92      0.67      0.78     52550
+ Subscription_Attack       1.00      1.00      1.00     31543
+  SynonymousIP_Flood       0.69      0.93      0.79     41355
+       TCP_ACK_Flood       1.00      0.97      0.98     31520
+           UDP_Flood       0.91      0.94      0.93     47117
+   UDP_Fragmentation       0.91      0.88      0.89     35785
+ WILL_Payload_Attack       1.00      1.00      1.00     20476
+
+            accuracy                           0.93    683037
+           macro avg       0.94      0.94      0.94    683037
+        weighted avg       0.94      0.93      0.93    683037

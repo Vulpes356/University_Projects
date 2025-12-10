@@ -1,0 +1,22 @@
+=== CLASSIFICATION REPORT (NaiveBayes) ===
+                      precision    recall  f1-score   support
+
+   ACK_Fragmentation       0.99      0.65      0.78     59728
+       BenignTraffic       0.98      0.72      0.83     70422
+      CONNECT_Attack       0.00      0.00      0.00     22884
+DELAY_CONNECT_Attack       0.46      1.00      0.63     34568
+          ICMP_Flood       0.63      1.00      0.77     58043
+  ICMP_Fragmentation       0.99      0.54      0.70     73295
+        PSHACK_Flood       0.78      0.85      0.81     50722
+         RSTFINFlood       1.00      1.00      1.00     53029
+           SYN_Flood       0.94      0.43      0.59     52550
+ Subscription_Attack       0.65      1.00      0.79     31543
+  SynonymousIP_Flood       0.57      0.97      0.72     41355
+       TCP_ACK_Flood       0.92      0.43      0.58     31520
+           UDP_Flood       0.74      0.99      0.85     47117
+   UDP_Fragmentation       0.55      0.56      0.56     35785
+ WILL_Payload_Attack       1.00      1.00      1.00     20476
+
+            accuracy                           0.75    683037
+           macro avg       0.75      0.74      0.71    683037
+        weighted avg       0.80      0.75      0.73    683037

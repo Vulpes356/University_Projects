@@ -1,0 +1,17 @@
+=== PIPELINE SUMMARY ===
+Pipeline Start: 2025-11-27 01:43:19.367388
+Pipeline End: 2025-11-27 03:33:54.525935
+Total Runtime (sec): 6635.16
+Total Runtime (min): 110.59
+
+--- Data Split ---
+
+Train features: (2732144, 54) (With Feature & Label Noise)
+Train labels: (2732144,)
+Test features: (683037, 54) (Clean)
+Test labels: (683037,)
+
+--- Best Model Stats (from summary) ---
+Model: XGBoost
+F1_macro: 0.946970
+Accuracy: 0.945540
