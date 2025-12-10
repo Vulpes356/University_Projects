@@ -1,0 +1,12 @@
+{
+  "wid": "win-2025-12-01T07:18:34Z",
+  "primary_label": "BenignTraffic",
+  "src_ip": "172.28.100.14",
+  "dst_ip": "172.28.100.5",
+  "dst_port": 1883,
+  "protocol": "0",
+  "_meta": {
+    "avg_conf": 0.556,
+    "count": 11
+  }
+}

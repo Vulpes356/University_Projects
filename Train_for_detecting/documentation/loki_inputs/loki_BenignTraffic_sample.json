@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-12-09T04:58:51Z",
+  "src_ip": "172.28.100.14",
+  "dst_ip": "172.28.100.5",
+  "protocol": "0",
+  "dst_port": 1883,
+  "attack_type": "DoS",
+  "attack_subtype": "BenignTraffic",
+  "confidence": 0.543,
+  "reasoning": "LLM Disabled (Check Config)",
+  "solution": "Check logs"
+}

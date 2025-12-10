@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-12-09T05:57:08Z",
+  "src_ip": "172.28.100.11, 172.28.100.13, 172.28.100.12",
+  "dst_ip": "172.28.100.5",
+  "protocol": "TCP",
+  "dst_port": 1883,
+  "attack_type": "DDoS",
+  "attack_subtype": "RSTFINFlood",
+  "confidence": 0.58,
+  "reasoning": "N/A",
+  "solution": "N/A"
+}

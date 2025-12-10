@@ -1,0 +1,12 @@
+{
+  "wid": "win-2025-12-01T07:12:45Z",
+  "primary_label": "CONNECT_Attack",
+  "src_ip": "172.28.100.13",
+  "dst_ip": "172.28.100.5",
+  "dst_port": 1883,
+  "protocol": "0",
+  "_meta": {
+    "avg_conf": 0.509,
+    "count": 9
+  }
+}
