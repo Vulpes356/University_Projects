@@ -77,7 +77,7 @@ The inference engine parses incoming JSON payloads to extract Source/Destination
 Raw model probabilities are processed using *Temperature Scaling* to produce calibrated confidence scores (rounded to 3 decimal places). This prevents over-confidence in incorrect predictions.
 
 ### Advanced Logic Rules
-- **Benign Threshold**: If `>= 75%` of traffic in a time window is normal, the system classifies the window as Benign to reduce false positives.
+- **Benign Threshold**: If `>= 90%` of traffic in a time window is normal, the system classifies the window as Benign to reduce false positives.
 - **DDoS and DoS Logic**:
   - 5 Unique Source IPs: Classified as DDoS.
   - 1-5 Unique Source IPs: Classified as DoS.
@@ -111,7 +111,7 @@ The system integrates with `Qwen-2.5-0.5B` (via local API) to analyze attack met
     - LightGBM model predicts the label.
     - Confidence score is calibrated.
 4. **Window Analysis**:
-    - Rules are applied (75% Benign threshold).
+    - Rules are applied (90% Benign threshold).
     - Attacks are grouped by type.
     - Multi-vector analysis determines distinct alerts.
 5. **Alerting**:
